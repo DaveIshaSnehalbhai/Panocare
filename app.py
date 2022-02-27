@@ -7,7 +7,7 @@ s1 = st.number_input('Glucose')
 s2 = st.number_input('BloodPressure')
 s3 = st.number_input('SkinThickness')
 s4 = st.number_input('BMI')
-s6 = st.number_input('DiabetesPedigreeFunction')
+s6 = st.number_input('DiabetesPedigreeFunction')  
 s7 = st.number_input('Age')
 
 from sklearn.datasets import load_diabetes
