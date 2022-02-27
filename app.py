@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.title('Diabeties Prediction System')
-s0 = st.slider('Pregnancies',0,10,1)
+s0 = st.slider('Pregnancies',0,10,1)  
 s1 = st.slider('Glucose',0,200,1)
 s2 = st.slider('BloodPressure',0,120,1)
 s3 = st.slider('SkinThickness',0,100,1)
