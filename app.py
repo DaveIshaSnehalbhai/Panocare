@@ -12,7 +12,7 @@ s6 = st.slider('DiabetesPedigreeFunction',0,2,0.01)
 s7 = st.slider('Age',1,100,1)
 
 from sklearn.datasets import load_diabetes
-dia = load_diabetes
+dia = load_diabetes()
 
 from sklearn.tree import DecisionTreeClassifier
 model = DecisionTreeClassifier()
