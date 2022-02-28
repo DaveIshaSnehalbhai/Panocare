@@ -14,8 +14,8 @@ s7 = st.slider('Age',1,100,1)
 from sklearn.datasets import load_diabetes
 dia = load_diabetes()
 
-from sklearn.tree import DecisionTreeClassifier
-model = DecisionTreeClassifier()
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
 model.fit(dia.data,dia.target)
 
 op = model.predict([[s0,s1,s2,s3,s4,s5,s6,s7]]).reshape
