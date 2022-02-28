@@ -18,7 +18,7 @@ from sklearn.tree import DecisionTreeClassifier
 model = DecisionTreeClassifier()
 model.fit(dia.data,dia.target)
 
-op = model.predict([[s0,s1,s2,s3,s4,s5,s6,s7]])
+op = model.predict([[s0,s1,s2,s3,s4,s5,s6,s7]]).reshape
 op = dia.target_names[op[0]]
 st.title(op)
     
