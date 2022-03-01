@@ -16,6 +16,6 @@ s7 = st.slider('Age',1,100,1)
 
 op = model.predict([[s0,s1,s2,s3,s4,s5,s6,s7]])
 
-if st.button('Predict')
+if st.button('Predict'):
   st.title(op[0])
     
